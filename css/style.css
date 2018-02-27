@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+* {
+    padding: 0px;
+    flex: 1 100%;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;    
+    font-weight: bold;
+    text-align: center;
+}
+
+.header {
+    background: tomato;
+}
+
+.footer {
+    background: lightgreen;
+}
+
+.article-main {
+    background: deepskyblue;
+}
+
+.asideleft {
+    background: gold;
+}
+
+.asideright {
+    background: hotpink;
+}
+
+.pad {
+    padding: 15px 5px;
+}

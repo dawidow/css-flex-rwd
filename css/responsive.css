@@ -1,0 +1,36 @@
+@media all and (min-width: 772px) {
+    .article-main {
+        flex: 3 0px;
+    }
+    .asideleft {
+        order: 1;
+    }
+    .article-main {
+        order: 2;
+    }
+    .asideright {
+        order: 3;
+    }
+    .footer {
+        order: 4;
+    }
+}
+
+@media all and (min-width: 773px) and (max-width: 992px) {
+    .article-main {
+        order: 1;
+    }
+    .asideleft {
+        order: 3;
+    }
+    .asideright {
+        flex: 1 auto;
+        order: 2;
+    }
+}
+
+@media all and (min-width: 993px) {
+    .aside {
+        flex: 1 auto;
+    }
+}
